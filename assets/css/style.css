@@ -13,15 +13,18 @@ header {
     padding: 50px;
     list-style-type: none;
 }
-
-ul.no-bullets {
-    list-style-type: none;
-    padding:0;
-    margin: 0;
-}
-
- .main-header {
+ 
+.main-header {
     display: flex;
     justify-content: space-between;
 
  }
+
+li { 
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+ 
