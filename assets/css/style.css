@@ -1,6 +1,13 @@
+:root {
+--dark:  rgb(172, 165, 165);
+--light: #549354;
+--text: rgb(97, 97, 138);
+
+}
+
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(172, 165, 165);
+    background-color: var(--dark);
     color: rgb(97, 97, 138);
     box-sizing: border-box;
 }
@@ -23,8 +30,28 @@ header {
 li { 
     display: inline;
     list-style: none;
-    text-decoration: none;
-   
+    text-decoration: none;   
 }
 
+.welcome {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background-color: var(--dark);
+    color: var(--text);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.subcontent {
+    display: flex;
+    justify-content: center;
+}
  
+
+.subcontent img {
+    float: none;
+    width:  50%;
+    height: 50%;
+    object-fit: cover;
+}
