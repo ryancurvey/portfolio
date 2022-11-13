@@ -17,7 +17,7 @@ header {
     background: lightblue;
     text-align: center;
     color:black;
-    padding: 50px;
+    padding: 5px;
     list-style-type: none;
 }
  
@@ -45,7 +45,8 @@ li {
 
 .subcontent {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
  
 
@@ -54,4 +55,52 @@ li {
     width:  50%;
     height: 50%;
     object-fit: cover;
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .card img {
+    width: 100%;
+    min-width: 400px;
+  }
+
+.myRow {
+   display: flex;
+    flex-direction: row;
+
+}
+
+.left-column {
+    display: flex;
+    width: 20%;
+    justify-content: right;
+    padding-right: 10px;
+    border-style: solid;
+    border-width: 0 3px 0 0;
+   
+
+}
+
+.right-column {
+    display: flex;
+    width: 80%;
+    padding-left: 10px;
+    flex-flow: row wrap;
+}
+
+.halfsize {
+    display: flex;
+    width: 40%;
 }
