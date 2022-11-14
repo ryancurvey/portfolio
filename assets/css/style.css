@@ -39,6 +39,11 @@ a:hover {
     background-color: var(--link);
 }
 
+.subtitle-box {
+    height: 500px;
+    width: 1600px;
+}
+
 .welcome {
     position: absolute;
     bottom: 5%;
@@ -121,3 +126,4 @@ h3 {
     bottom: 8px;
     left: 16px;
 }
+
