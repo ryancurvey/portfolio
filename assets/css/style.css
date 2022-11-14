@@ -3,8 +3,6 @@
 --light: #549354;
 --text: rgb(97, 97, 138);
 --link: rgb(97, 97, 138);
-
-
 }
 
 *{
@@ -16,11 +14,18 @@
 
 header {
     display: flex;
-    background: lightblue;
+    background: var(--dark);
     text-align: center;
     color:black;
     padding: 5px;
     list-style-type: none;
+}
+h1 {
+    box-align: left;
+    padding: 5px;
+    font-size: 24px;
+    color: var(--text);
+
 }
  
 .main-header {
@@ -39,11 +44,12 @@ a:hover {
     background-color: var(--link);
 }
 
-.subtitle-box {
+/* . this makes the "welocome" disappear
+subtitle-box {
     height: 500px;
     width: 1600px;
 }
-
+ */
 .welcome {
     position: absolute;
     bottom: 5%;
@@ -126,4 +132,11 @@ h3 {
     bottom: 8px;
     left: 16px;
 }
+
+
+/* .contact-links {
+    display: flex;
+    justify-content: space-around;
+} */
+
 
