@@ -54,11 +54,12 @@ a:hover {
     /* image-rendering: auto; */
  }
 
- /* .hero-image {
-    display: flex;
+ .hero-image {
+    /* display: flex; */
     width: 100%;
     height: auto;
- } */
+ }
+
 .welcome {
     position: absolute;
     bottom: 5%;
@@ -69,7 +70,7 @@ a:hover {
     padding-right: 20px;
 }
 
-.subcontent {
+/* .subcontent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -81,7 +82,7 @@ a:hover {
     width:  50%;
     height: 50%;
     object-fit: cover;
-}
+} */
 
 .card {
     flex: 1 0 0;
