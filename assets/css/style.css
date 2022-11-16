@@ -54,6 +54,8 @@ a:hover {
     /* image-rendering: auto; */
  }
 
+
+
  .hero-image {
     /* display: flex; */
     width: 100%;
@@ -70,6 +72,46 @@ a:hover {
     padding-right: 20px;
 }
 
+.project-container {
+    display: flex;
+    max-width: 80%;
+    flex-wrap:wrap;
+   
+
+ }
+.project-card-main {
+    flex-grow: 2;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+ .project-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: auto;
+    max-width: auto;
+
+ }
+
+.burgercard {
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    flex-grow: 2;
+}
+
+.card {
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    flex-grow: 1;
+}
+
 /* .subcontent {
     display: flex;
     flex-direction: row;
@@ -83,13 +125,41 @@ a:hover {
     height: 50%;
     object-fit: cover;
 } */
+.burgercard {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+}
+.burgercard {
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: var(--text);
+    width: 100%;
+    height: auto;
+}
+
+.burgercard header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .burgercard img {
+    width: 100%;
+    min-width: 400px;
+  }
 
 .card {
     flex: 1 0 0;
-    padding: 10px;
+    padding: 20px 0 0 20px;
     text-align: center;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
+    
   }
   
   .card header {
@@ -133,6 +203,7 @@ a:hover {
     width: 40%;
 }
 
+
 .card {
     position: relative;
     text-align: center;
@@ -140,16 +211,17 @@ a:hover {
 }
 h3 {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 5%;
+    left: 3.5%;
 }
 
-.workimage {
-    
-    width: auto;
-    max-width: 100%;
-    max-height: 100%;
+h5 {
+    position: absolute;
+    bottom: 5%;
+    left: 11.5%;
+    font-size: 20px;
 }
+
 
 
 .contact-links {
