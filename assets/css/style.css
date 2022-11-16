@@ -1,8 +1,8 @@
 :root {
---dark:  rgb(172, 165, 165);
+--dark:  rgb(4, 4, 4);
 --light: #549354;
---text: rgb(97, 97, 138);
---link: rgb(97, 97, 138);
+--text: rgb(118, 190, 131);
+--link: rgb(118, 190, 131);
 }
 
 *{
@@ -212,21 +212,22 @@ a:hover {
 h3 {
     position: absolute;
     bottom: 5%;
-    left: 3.5%;
+    left: 3.4%;
+    font-size: 30px
 }
 
 h5 {
     position: absolute;
     bottom: 5%;
     left: 11.5%;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
 
 .contact-links {
-    display: inline-flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
 }
 
 
