@@ -2,7 +2,7 @@
 --dark:  rgba(41, 39, 39, 0.996);
 --light: #549354;
 --text: rgb(118, 190, 131);
---link: rgb(118, 190, 131);
+--link: rgb(0, 0, 0);
 }
 
 *{
@@ -58,6 +58,13 @@ a:hover {
     background-color: var(--link);
 }
 
+.burgercard:hover {
+    background-color: var(--link);
+}
+
+.card:hover {
+    background-color: var(--link);
+}
   
  
  .subtitle-box {
