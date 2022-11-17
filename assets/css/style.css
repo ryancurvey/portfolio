@@ -245,10 +245,25 @@ h5 {
 }
 
 
+    nav ul {
+    list-style: none;
+    margin: auto 30px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav li {
+    list-style: none;
+    margin: 20px 30px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
 
 .contact-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
