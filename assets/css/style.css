@@ -65,17 +65,6 @@ a:hover {
 .card:hover {
     background-color: var(--link);
 }
-  
- 
- .subtitle-box {
-    /* display: flex; */
-    position: relative;
-    max-width: 100%;
-    height: auto;
-    /* image-rendering: auto; */
- }
-
-
 
  .hero-image {
     /* display: flex; */
@@ -135,19 +124,6 @@ a:hover {
     flex-grow: 1;
 }
 
-/* .subcontent {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
- 
-
-.subcontent img {
-    float: none;
-    width:  50%;
-    height: 50%;
-    object-fit: cover;
-} */
 .burgercard {
     display: flex;
     justify-content: center;
@@ -220,13 +196,6 @@ a:hover {
     flex-flow: row wrap;
 }
 
-.halfsize {
-    display: flex;
-    flex-wrap: wrap;
-    width: 40%;
-}
-
-
 .card {
     position: relative;
     text-align: center;
@@ -246,7 +215,6 @@ h5 {
     font-size: 30px;
 }
 
-
     nav ul {
     list-style: none;
     margin: auto 30px;
@@ -262,10 +230,6 @@ h5 {
     display: flex;
     justify-content: space-around;
   }
-
-
-
-
 
 @media screen and (max-width: 992px) {
     .projectcard {
