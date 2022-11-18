@@ -15,4 +15,4 @@
 * That page can be found at this address: https://ryancurvey.github.io/portfolio/
 
 * Here is a Screenshot of the completed page:
-![]("./assets/images/Screen Shot 2022-11-17 at 6.32.33 PM.png")
+![Screenshot of portfolio.](./assets/images/Screen%20Shot%202022-11-17%20at%206.32.33%20PM.png)
