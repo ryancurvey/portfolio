@@ -114,6 +114,8 @@ a:hover {
     flex-grow: 1;
     height: auto;
     max-width: auto;
+    min-width: 100px;
+    min-height: 100px;
 
  }
 
@@ -266,16 +268,20 @@ h5 {
 
 
 @media screen and (max-width: 992px) {
-    .card {
-      width: 50%;
+    .projectcard {
+      width: 40%;
+      min-width: 100px;
+      min-height: 100px;
     }
    
   }
   
   /* Cards are stacked on top of each other at 768px or smaller */
    @media screen and (max-width: 768px) {
-    .card {
+    .projectcard {
       width: 100%;
+      min-width: 100px;
+      min-height: 100px;
     }
   
   }
