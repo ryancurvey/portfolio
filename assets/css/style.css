@@ -66,6 +66,14 @@ a:hover {
     background-color: var(--link);
 }
 
+.subtitle-box {
+    /* display: flex; */
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    /* image-rendering: auto; */
+ }
+
  .hero-image {
     /* display: flex; */
     width: 100%;
